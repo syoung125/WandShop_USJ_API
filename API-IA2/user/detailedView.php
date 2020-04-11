@@ -132,7 +132,7 @@ function addToBasket($mysqli, $user_id, $quantity, $wand_id){
 	}
 
 	// put it into basket
-	$queryInsert = "INSERT INTO basket VALUES ($id, '$date', '$user_id', $wand_id, $quantity, $price)";
+	$queryInsert = "INSERT INTO basket VALUES ($id, '$date', '$user_id', $wand_id, $quantity, $price, NULL)";
 	$result = $mysqli->query($queryInsert);
 
 	if (!$result)
