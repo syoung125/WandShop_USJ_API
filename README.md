@@ -6,7 +6,7 @@ Database: MySQL<br/>
 Server: 000webhost<br/>
 
 ## Main Function
-1. Login: considered security, email verification<br/>
+1. Login: considered security, email verification(not working temporarily)<br/>
 2. View product<br/>
 3. Sort item - asending, desending by price<br/>
 4. Filtering
